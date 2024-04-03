@@ -1,0 +1,11 @@
+services:
+  resonite:
+    build: .
+    container_name: resonite-headless-dotnet8
+    tty: true
+    stdin_open: true
+    volumes:
+      - "./Config:/Config:ro"
+      - "./Logs:/Logs"
+      - "/etc/localtime:/etc/localtime:ro"
+    restart: unless-stopped

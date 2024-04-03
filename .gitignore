@@ -1,0 +1,5 @@
+docker-compose.yml
+Config/Config.json
+Logs/*.log
+
+build-resonite-headless-image.sh
