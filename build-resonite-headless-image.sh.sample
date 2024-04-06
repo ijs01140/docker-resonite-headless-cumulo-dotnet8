@@ -1,6 +1,5 @@
 #!/bin/sh
 
-docker build \
+docker compose build \
     --build-arg STEAMLOGIN='steam-username steam-password' \
     --build-arg STEAMBETAPASSWORD='your-headless-code-here' \
-    .
