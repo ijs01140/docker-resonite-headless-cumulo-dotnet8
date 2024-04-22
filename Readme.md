@@ -2,10 +2,11 @@
 [Resonite](https://resonite.com/)のHeadless鯖を.NET 8で動くよう[パッチ](https://github.com/BlueCyro/Cumulo)し、Dockerで動かすやつ
 
 ## 前提条件
+### 必須
 - Docker, Docker Composeのインストール
 - Steamガードを無効化したSteamアカウント
 - ResoniteのHeadless用コード
-## 推奨
+### 推奨
 - Docker Buildxのインストール
 
 ## インストール手順
