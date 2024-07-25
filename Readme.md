@@ -1,4 +1,7 @@
-#  docker-resonite-headless-dotnet8
+# 公式に.NET8なHeadless（テスト版）が配布開始されたため、このリポジトリはアーカイブします
+詳細は https://github.com/Yellow-Dog-Man/Resonite-Issues/discussions/2539 等を参照
+
+#  docker-resonite-headless-cumulo-dotnet8
 [Resonite](https://resonite.com/)のHeadless鯖を.NET 8で動くよう[パッチ](https://github.com/BlueCyro/Cumulo)し、Dockerで動かすやつ
 
 ## 前提条件
